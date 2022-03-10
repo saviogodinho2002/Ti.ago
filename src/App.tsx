@@ -24,7 +24,10 @@ function App() {
   function resetTimer(){
     clearInterval(timer);
     setCurrentTime([0,0,0]);
-   
+     min = 0;
+    seg = 0;
+     millis = 0;
+    setTimer( setInterval(timerRun, 100));
   }
   function resetHistoric(){
     addTimeStamp([]);
