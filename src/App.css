@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+  background: black;
+}
+h1, h2{
+  color: white;
+}
+#title{
+  padding:20px;
+  font-size: 48px;
+}
+#timer-area{
+  background: rgb(87, 87, 87);
+  width: 50%;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
+  height:  80vh;
+  overflow: hidden;
+  
+  
+}
+#timer-text{
+  font-size:60px;
+  position: relative;
+
+}
+#history-camp{
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+ 
+  height: 80%;
+  width: 90%;
+ 
+  background: rgb(0, 0, 53);
+  overflow: auto;
+ 
+}
+.history-time{
+  font-size: 40px;
+  color: yellow;
+}
+#subtitle{
+  padding-bottom:20px;
+}
+
+.btn-nonclick{
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(42, 9, 190);
+  cursor: pointer;
+}
+.btn-clicked{
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  background: rgb(190, 9, 9);
+  cursor: pointer;
+}
+@media screen and (max-width: 500px)
+{
+
+#timer-text{
+  font-size:40px;
+  position: relative;
+
+}
+#timer-area{
+ 
+  width: 80%;
+}
+
+}

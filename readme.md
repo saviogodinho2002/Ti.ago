@@ -1,0 +1,1 @@
+cronometro Ti.Ago na sua versao 2, agora em react
