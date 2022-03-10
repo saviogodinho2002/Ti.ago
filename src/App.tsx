@@ -8,7 +8,7 @@ function App() {
   const [currentTime, setCurrentTime] = useState<number[]>([0, 0, 0]);
   const [timerRunning, setRunning] = useState(false);
   const [currentBtnClass, setBtnClass] = useState("btn-nonclick");
-  let [timer, setTimer] = useState(0);
+  const [timer, setTimer] = useState(0);
   const [timestamp, addTimeStamp] = useState<string[]>([]);
 
   let min = currentTime[0];
